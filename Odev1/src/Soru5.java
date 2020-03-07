@@ -6,8 +6,8 @@ public class Soru5 {
 		// TODO Auto-generated method stub
 		int a[] = new int[100];
 		int i , deger;
+		Random rastgele = new Random();
 		for (i=0;i<100;i++) {
-			Random rastgele = new Random();
 			deger = rastgele.nextInt(100);
 			a[i] = deger;
 		}

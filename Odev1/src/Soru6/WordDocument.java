@@ -1,13 +1,13 @@
 package Soru6;
 
 class WordDocument {
-	String _body = "veri";
+	String body = "veri";
 	
 	WordDocument(String gelenBody) {
-		_body = gelenBody;
+		body = gelenBody;
 	}
 	
 	String getBody() {
-		return _body;
+		return body;
 	}
 }

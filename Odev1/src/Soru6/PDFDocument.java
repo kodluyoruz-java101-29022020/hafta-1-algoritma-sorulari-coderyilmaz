@@ -1,13 +1,13 @@
 package Soru6;
 
 class PDFDocument {
-	String _body = "veri";
+	String body = "veri";
 	
 	PDFDocument(String gelenBody) {
-		_body = gelenBody;
+		body = gelenBody;
 	}
 	
 	String getBody() {
-		return _body;
+		return body;
 	}
 }
